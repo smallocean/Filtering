@@ -1,0 +1,33 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_STATIC_SPECULAR                     0x103E9
+HID_MCUBE_CALCULATER                    0x18003
+HID_VECTOR_INTEPOLATE                   0x18004
+HID_MCUBE_NODEMOVE                      0x18005
+HID_32776                               0x18008
+HID_MESH_SKIN                           0x1800A
+HID_MESH_BONE                           0x1800C
+HID_Menu                                0x1800D
+HID_Menu32782                           0x1800E
+HID_Menu32783                           0x1800F
+HID_32784                               0x18010
+HID_Filter_Addnoise_Geometry            0x18013
+HID_Filter_Addnoise_Function            0x18014
+HID_Filter_Bilateral                    0x18015
+HID_Filter_Non_Shift                    0x18017
+HID_Meshless_Filter                     0x18019
+HID_Filter_Aniso_Meshless               0x1801B
+HID_Filter_MLS                          0x1801D
+HID_Aniso_Sur_Fun_Filter                0x1801F
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_MCUBETYPE                          0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_FORMVIEW                           0x20065
+ 
+// Frame Controls (IDW_*) 

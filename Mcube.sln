@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA047034-2644-4434-9844-1862FC9793B1}"
+	ProjectSection(SolutionItems) = preProject
+		FilterBilateral1.cpp = FilterBilateral1.cpp
+		FilterBilateral1.h = FilterBilateral1.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mcube", "Mcube.vcxproj", "{7C99F7C3-B41E-44E2-A5A6-1F7CD1C8D4AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C99F7C3-B41E-44E2-A5A6-1F7CD1C8D4AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C99F7C3-B41E-44E2-A5A6-1F7CD1C8D4AC}.Debug|Win32.Build.0 = Debug|Win32
+		{7C99F7C3-B41E-44E2-A5A6-1F7CD1C8D4AC}.Release|Win32.ActiveCfg = Release|Win32
+		{7C99F7C3-B41E-44E2-A5A6-1F7CD1C8D4AC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

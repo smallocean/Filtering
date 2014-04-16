@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mcube - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\redstar\LOCALS~1\Temp\RSP4.bat" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\Mcube.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\Mcube.hlp" goto :Error
+copy "hlp\Mcube.hlp" .\Debug
+goto :done
+:Error
+echo hlp\Mcube.hpj(1) : error:
+type "hlp\Mcube.log"
+:done
+]
+Creating command line "C:\DOCUME~1\redstar\LOCALS~1\Temp\RSP4.bat"
+Creating temporary file "C:\DOCUME~1\redstar\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Mcube.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\redstar\LOCALS~1\Temp\RSP5.tmp" 
+Making help file...
+hlp\Mcube.hpj(1) : error:
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+mcube.hpj
+    HC5011: Error: mcube.hpj : 
+ Cannot open the file "D:\«ÿ∫Ï–«\Mcube\hlp\Mcube.hm."
+Creating temporary file "C:\DOCUME~1\redstar\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Mcube.pdb" /debug /machine:I386 /out:"Debug/Mcube.exe" /pdbtype:sept 
+".\Debug\CIsoSurface.obj"
+".\Debug\DialogIntepolate.obj"
+".\Debug\FormCommandView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Mcube.obj"
+".\Debug\McubeDoc.obj"
+".\Debug\McubeView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\utils.obj"
+".\Debug\Vectors.obj"
+".\Debug\Mcube.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\redstar\LOCALS~1\Temp\RSP6.tmp"
+<h3>Output Window</h3>
+Compiling...
+McubeDoc.cpp
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(46) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(47) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(48) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(291) : error C2059: syntax error : '['
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(307) : error C2059: syntax error : '['
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(362) : error C2065: 'NodeSlice' : undeclared identifier
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(362) : error C2065: 'SearchNodeOnlice' : undeclared identifier
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(362) : error C2065: 'm_Vertice' : undeclared identifier
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(362) : error C2275: 'POINT3D' : illegal use of this type as an expression
+        d:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\mcube\vectors.h(10) : see declaration of 'POINT3D'
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(362) : error C2062: type 'float' unexpected
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(363) : error C2143: syntax error : missing ';' before '{'
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(373) : error C2065: 'y' : undeclared identifier
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(403) : error C2562: 'OnMcubeNodemove' : 'void' function returning a value
+        d:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\mcube\mcubedoc.h(62) : see declaration of 'OnMcubeNodemove'
+D:\«ÿ∫Ï–«\≥Ã–Ú¥˙¬Î\Mcube\McubeDoc.cpp(412) : fatal error C1004: unexpected end of file found
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Mcube.exe - 13 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
